@@ -1,0 +1,170 @@
+
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow {
+    color: rgba(8, 144, 235, 0.699);
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  h4 {
+    margin-left: 40px;
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .size{
+  text-align: center;
+  }
+  .slider {
+    width: 90%;
+    margin-left:18px;
+    margin-right: 40px;
+    flex: 1; 
+  }
+  .slider-container{
+      align-items: center;
+      display: flex;
+     
+  }
+  .value-display {
+    width: 60px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .hr{
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top:15px;
+  }
+  .p{
+      margin-left: 40px;
+      color: red;
+  }
+  .info p{
+   margin-left:  40px;
+   font-weight: bold;
+  }
+  .options{
+      display: flex;
+      justify-content: space-between;
+   
+      margin-right: 40px;
+  }
+  .GoogleSerch
+  
+  {
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+  }
+  .CapterraGetappG2{
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+      row-gap: 15px;
+  }
+  .Fromfriend{
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+      row-gap: 15px;
+  }
+  .Offlineevent{
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px; 
+      row-gap: 15px;
+  }
+  .Socialmedia{
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px; 
+      row-gap: 15px;
+  }
+  .TaxDomeConsutanrtPartner{
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px; 
+      row-gap: 15px;
+  }
+  .Other{
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px; 
+      row-gap: 15px;
+  }
+  
+  .othersoptions{
+      display: flex;
+      margin-left: 130px;
+      margin-right: 40px; 
+  }
+  .btn button{
+      margin: 10px;
+      padding: 10px;  
+      margin-left: 40px;
+      background-color: blue;
+      width: 120px;
+      text-align: center;
+      color: white;
+      margin-top: 85px;
+      font-weight: bold;
+      border-radius: 5px;
+  }
+  .btn button:hover{
+      background-color: rgb(41, 96, 248);
+  }
+  .icons{
+      margin: 10px;
+      font-size: 30px;
+  }
+  .rightarrow{
+      margin: 10px;
+      font-size: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column; 
+      }
+    
+      .slider {
+        width: 80%; 
+        margin: 0; 
+      }
+    
+      .value-display {
+        margin: 0 auto;
+        margin-top: 10px; 
+      }
+    
+      .options {
+        flex-direction: column; 
+        align-items: center; 
+      }
+    
+      .othersoptions {
+        margin: 0; 
+        flex-direction: column; 
+      }
+      .btn button {
+          margin-top: 20px; 
+        }
+    }
+  
+    .slider input[type="range"] {
+      width: 420px;
+      height: 2px;
+      background: black;
+      border: none;
+      outline: none;
+  } 
+    

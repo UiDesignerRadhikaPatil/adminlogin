@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 15px;
+   
+    align-items: center;
+    
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+.header .logo img{
+    height: 20px;
+    margin-left: 50px;
+}
+.header-info .login-btn{
+    width: 80px;
+    height: 30px;
+    background: white;
+   
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+.header-info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+}
+
+  .header-info img{
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.path{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.path .number{
+    /* border: 1px solid black; */
+    padding: 5px;
+    width: 30px;
+    background: rgb(229, 229, 240);
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.number:hover{
+    background: blue;
+    cursor: pointer;
+}
+.setting-container{
+    display: flex;
+    margin: 50px;
+    gap: 15px;
+}
+.firm-setting{
+    width: 50%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.firm-setting .firm{
+    margin: 10px;
+}
+.firm-setting span{
+color: blue;
+}
+.firm h2{
+    font-size: 50px;
+}
+
+.firm .firm-info{
+    display: flex;
+    gap: 50px;
+}
+.image{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.image img{
+    width: 100%;
+}
+input{
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.currency-container{
+    display: flex;
+    gap: 100px;
+}
+ .select{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.button{
+    width: 250px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 20px;
+}

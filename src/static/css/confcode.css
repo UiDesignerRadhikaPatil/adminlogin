@@ -1,0 +1,98 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 15px;
+   
+    align-items: center;
+    
+}
+.header .logo img{
+    height: 50px;
+    margin-left: 50px;
+}
+.header-info .login-btn{
+    width: 80px;
+    height: 50px;
+    background: white;
+   
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+.header-info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+}
+
+  .header-info img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.path{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.path .number{
+    /* border: 1px solid black; */
+    padding: 10px;
+    width: 30px;
+    background: rgb(229, 229, 240);
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.number:hover{
+    background: blue;
+    cursor: pointer;
+}
+.confirm-code{
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    font-family: 'Arial', sans-serif;
+}
+.confirm-code h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.confirm-code .text{
+    text-align: left;
+   
+}
+.confirm-code .icon{
+   font-size: 15px;
+}
+.code{
+    display: flex;
+    gap: 50px;
+}
+.code .box{
+    margin-top: 30px;
+    width: 100px;
+    height: 120px;
+    border: 1px solid rgb(145, 140, 140);
+    /* box-shadow: 10px 10px 5px lightblue; */
+    text-align: center;
+  border-radius: 5px;
+}
+.resend{
+    margin-top: 90px;
+}
+.resend a{
+    text-decoration: none;
+   
+}

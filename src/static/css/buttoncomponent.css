@@ -1,0 +1,15 @@
+.button-container {
+    display: flex;
+    justify-content: left;
+
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+button:hover {
+    background-color: lightblue;
+}
